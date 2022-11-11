@@ -1,8 +1,8 @@
 Feature: Deck preparation
 
-  Scenario: Before the game session start, there is exactly 106 cards
+  Scenario: Before the game session start, there is exactly 104 cards
     When the deck is built
-    Then there is 106 cards
+    Then there is 104 cards
     And each card has at least one cattle head
 
   Scenario: Before the game session start, the card 55 contains 7 cattles heads
